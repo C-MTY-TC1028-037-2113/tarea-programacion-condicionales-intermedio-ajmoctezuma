@@ -21,7 +21,7 @@ def main():
             print("Raices complejas")
         else: 
             x=-b/(2*a)
-            print(x)
+            print(x) 
 
 if __name__ == '__main__':
-    main()
+    main() 
