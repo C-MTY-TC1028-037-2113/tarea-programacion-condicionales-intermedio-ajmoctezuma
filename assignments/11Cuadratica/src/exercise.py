@@ -9,7 +9,7 @@ def main():
         print("No tiene solucion")
     elif (a==0):
         raiz=-c/b
-        print(raiz)
+        print(raiz) 
     else:
         discrim=b**2-4*a*c
         if (discrim)>0:
@@ -19,7 +19,7 @@ def main():
             print(x2)
         elif (discrim < 0):
             print("Raices complejas")
-        else:
+        else: 
             x=-b/(2*a)
             print(x)
 
